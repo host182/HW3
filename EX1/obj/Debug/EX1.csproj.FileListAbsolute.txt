@@ -1,0 +1,6 @@
+C:\Users\npoudel21\Desktop\HW3\EX1\bin\Debug\EX1.exe.config
+C:\Users\npoudel21\Desktop\HW3\EX1\bin\Debug\EX1.exe
+C:\Users\npoudel21\Desktop\HW3\EX1\bin\Debug\EX1.pdb
+C:\Users\npoudel21\Desktop\HW3\EX1\obj\Debug\EX1.csprojAssemblyReference.cache
+C:\Users\npoudel21\Desktop\HW3\EX1\obj\Debug\EX1.exe
+C:\Users\npoudel21\Desktop\HW3\EX1\obj\Debug\EX1.pdb
