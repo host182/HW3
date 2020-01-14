@@ -20,11 +20,17 @@ namespace EX1
 
         public virtual double getArea() { return 0; }
 
+        public virtual int CompareTo(object o)
+        {
+            return 0;
+        }
+        
+        //commented this function so that some shapes cannot be compared to other shapes
         //public int CompareTo(object o)
         //{
         //    if (o == null)
         //    {
-        //        return -1;
+        //        return 1;
         //    }
         //    Shape newObject = o as Shape;
         //    if (newObject != null)
@@ -53,10 +59,21 @@ namespace EX1
         {
             return Math.PI * radius * radius;
         }
+
+        public override int CompareTo(object o)
+        {
+            if (o == null)
+                return 1;
+            Circle newCircle = o as Circle;
+            if (newCircle == null)
+                throw new ArgumentException("Object is not a circle");
+            else
+                return radius.CompareTo(newCircle.radius);
+        }
     }
 
     //I set EqPolygon to inherit IComparable so that the I get an error when I try to compare with Circle
-    class EqPolygon : Shape, IComparable
+    class EqPolygon : Shape
     {
         protected int sides;
 
@@ -74,11 +91,19 @@ namespace EX1
 
         public int getSides() { return sides; }
 
-        public int CompareTo(object o)
+        public override int CompareTo(object o)
         {
             if (o == null)
                 return 1;
-            EqPolygon newPoly = o as EqPolygon;
+            EqPolygon newPoly = new EqPolygon();
+            try
+            {
+                newPoly = o as EqPolygon;
+            }
+            catch
+            {
+                Console.WriteLine("Here");
+            }
             if (newPoly == null)
                 throw new ArgumentException("Object is not an EqPolygon");
             else
