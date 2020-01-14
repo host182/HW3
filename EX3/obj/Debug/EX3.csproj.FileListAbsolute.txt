@@ -1,0 +1,6 @@
+D:\courses\2020 Jan\Windows app dev\Homeworks\HW3\EX3\bin\Debug\EX3.exe.config
+D:\courses\2020 Jan\Windows app dev\Homeworks\HW3\EX3\bin\Debug\EX3.exe
+D:\courses\2020 Jan\Windows app dev\Homeworks\HW3\EX3\bin\Debug\EX3.pdb
+D:\courses\2020 Jan\Windows app dev\Homeworks\HW3\EX3\obj\Debug\EX3.csprojAssemblyReference.cache
+D:\courses\2020 Jan\Windows app dev\Homeworks\HW3\EX3\obj\Debug\EX3.exe
+D:\courses\2020 Jan\Windows app dev\Homeworks\HW3\EX3\obj\Debug\EX3.pdb
